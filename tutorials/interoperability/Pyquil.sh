@@ -27,7 +27,7 @@ fi
 #
 post()
 {
-kill $(cat $outfile.pid) >/dev/null
+kill $(cat $outfile.pid 2>/dev/null) &>/dev/null
 return
 }
 

@@ -2,7 +2,6 @@ BEGIN
 qubits 2
 cbits 2
 
-Y  q[0]
+H  q[0]
 CNOT  q[0],q[1]
-MEAS q[0],q[1] c[0],c[1]
 END

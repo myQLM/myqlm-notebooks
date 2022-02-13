@@ -1,2 +1,2 @@
-myqlm
+myqlm==1.5.1
 myqlm-interop[all]

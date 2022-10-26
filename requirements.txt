@@ -1,1 +1,2 @@
 myqlm==1.7.1
+myqlm-interop[qiskit_binder]

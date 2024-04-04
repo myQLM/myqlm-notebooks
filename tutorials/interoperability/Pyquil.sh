@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Start Pyquil Servers
 
 declare -A server_path server_opts server_host server_port server_pidf
@@ -65,4 +65,3 @@ case $snipet in
         post
         ;;
 esac
-

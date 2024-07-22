@@ -25,10 +25,10 @@ pre()
 {
 for server in $servers; do
     if [[ -x ${server_path[$server]} ]]; then
-        cmd="nohup $server ${server_opts[$server]} --host ${server_host[$server]} --port ${server_port[$server]}"
-        echo -e "\n> $cmd" >>$outfile
-        eval $cmd &>>$outfile &
-        echo "$!" >${server_pidf[$server]}
+        cmd="$server ${server_opts[$server]} --host ${server_host[$server]} --port ${server_port[$server]}"
+        echo -e "\n> $cmd" >>"$outfile"
+        eval "$cmd" &>>"$outfile" &
+        echo "$!" >"${server_pidf[$server]}"
         while ((sec < 5)); do
             sleep 1
             netstat -an | grep -qE "${server_host[$server]}:${server_port[$server]}.*LISTEN" && break
@@ -45,7 +45,7 @@ done
 post()
 {
 for server in $servers; do
-    kill $(cat ${server_pidf[$server]} 2>/dev/null) &>/dev/null
+    pkill -P "$(cat "${server_pidf[$server]}" 2>/dev/null)" &>/dev/null
 done
 return
 }

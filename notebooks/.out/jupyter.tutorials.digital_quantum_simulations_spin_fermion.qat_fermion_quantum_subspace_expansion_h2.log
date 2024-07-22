@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_quantum_subspace_expansion_h2.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. qat_fermion_quantum_subspace_expansion_h2.ipynb
+notebook_parent_dir ... ./tutorials/digital_quantum_simulations_spin_fermion
+test .................. jupyter/tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_quantum_subspace_expansion_h2
+testcase .............. jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_quantum_subspace_expansion_h2
+testname .............. qat_fermion_quantum_subspace_expansion_h2
+testpackage ........... jupyter
+testclass ............. tutorials.digital_quantum_simulations_spin_fermion
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/digital_quantum_simulations_spin_fermion
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_quantum_subspace_expansion_h2.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html qat_fermion_quantum_subspace_expansion_h2.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_quantum_subspace_expansion_h2 
+jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_quantum_subspace_expansion_h2    [09:44:24]
+----------------------------------------------------------------------------------------------------
+[NbConvertApp] Converting notebook qat_fermion_quantum_subspace_expansion_h2.ipynb to html
+[NbConvertApp] Writing 450188 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_quantum_subspace_expansion_h2.html

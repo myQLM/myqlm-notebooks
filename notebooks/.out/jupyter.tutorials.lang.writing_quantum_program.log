@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/writing_quantum_program.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. writing_quantum_program.ipynb
+notebook_parent_dir ... ./tutorials/lang
+test .................. jupyter/tutorials/lang/writing_quantum_program
+testcase .............. jupyter.tutorials.lang.writing_quantum_program
+testname .............. writing_quantum_program
+testpackage ........... jupyter
+testclass ............. tutorials.lang
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.writing_quantum_program.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html writing_quantum_program.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/writing_quantum_program 
+jupyter.tutorials.lang.writing_quantum_program    [09:45:18]
+----------------------------------------------
+[NbConvertApp] Converting notebook writing_quantum_program.ipynb to html
+[NbConvertApp] Writing 401528 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/writing_quantum_program.html

@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/advanced_usage_compute_uncompute.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. advanced_usage_compute_uncompute.ipynb
+notebook_parent_dir ... ./tutorials/lang
+test .................. jupyter/tutorials/lang/advanced_usage_compute_uncompute
+testcase .............. jupyter.tutorials.lang.advanced_usage_compute_uncompute
+testname .............. advanced_usage_compute_uncompute
+testpackage ........... jupyter
+testclass ............. tutorials.lang
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.advanced_usage_compute_uncompute.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html advanced_usage_compute_uncompute.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/advanced_usage_compute_uncompute 
+jupyter.tutorials.lang.advanced_usage_compute_uncompute    [09:44:40]
+-------------------------------------------------------
+[NbConvertApp] Converting notebook advanced_usage_compute_uncompute.ipynb to html
+[NbConvertApp] Writing 508613 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/advanced_usage_compute_uncompute.html

@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/combinatorial_optimization/max_cut_myqlm.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. max_cut_myqlm.ipynb
+notebook_parent_dir ... ./tutorials/combinatorial_optimization
+test .................. jupyter/tutorials/combinatorial_optimization/max_cut_myqlm
+testcase .............. jupyter.tutorials.combinatorial_optimization.max_cut_myqlm
+testname .............. max_cut_myqlm
+testpackage ........... jupyter
+testclass ............. tutorials.combinatorial_optimization
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/combinatorial_optimization
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.combinatorial_optimization.max_cut_myqlm.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html max_cut_myqlm.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/combinatorial_optimization/max_cut_myqlm 
+jupyter.tutorials.combinatorial_optimization.max_cut_myqlm    [09:44:08]
+----------------------------------------------------------
+[NbConvertApp] Converting notebook max_cut_myqlm.ipynb to html
+[NbConvertApp] Writing 606251 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/combinatorial_optimization/max_cut_myqlm.html

@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/very_advanced_linker.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. very_advanced_linker.ipynb
+notebook_parent_dir ... ./tutorials/lang
+test .................. jupyter/tutorials/lang/very_advanced_linker
+testcase .............. jupyter.tutorials.lang.very_advanced_linker
+testname .............. very_advanced_linker
+testpackage ........... jupyter
+testclass ............. tutorials.lang
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.very_advanced_linker.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html very_advanced_linker.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/very_advanced_linker 
+jupyter.tutorials.lang.very_advanced_linker    [09:45:16]
+-------------------------------------------
+[NbConvertApp] Converting notebook very_advanced_linker.ipynb to html
+[NbConvertApp] Writing 860890 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/very_advanced_linker.html

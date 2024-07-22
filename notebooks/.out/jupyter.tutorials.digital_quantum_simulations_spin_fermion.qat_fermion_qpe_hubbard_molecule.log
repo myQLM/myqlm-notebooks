@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_qpe_hubbard_molecule.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. qat_fermion_qpe_hubbard_molecule.ipynb
+notebook_parent_dir ... ./tutorials/digital_quantum_simulations_spin_fermion
+test .................. jupyter/tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_qpe_hubbard_molecule
+testcase .............. jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_qpe_hubbard_molecule
+testname .............. qat_fermion_qpe_hubbard_molecule
+testpackage ........... jupyter
+testclass ............. tutorials.digital_quantum_simulations_spin_fermion
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/digital_quantum_simulations_spin_fermion
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_qpe_hubbard_molecule.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html qat_fermion_qpe_hubbard_molecule.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_qpe_hubbard_molecule 
+jupyter.tutorials.digital_quantum_simulations_spin_fermion.qat_fermion_qpe_hubbard_molecule    [09:44:22]
+-------------------------------------------------------------------------------------------
+[NbConvertApp] Converting notebook qat_fermion_qpe_hubbard_molecule.ipynb to html
+[NbConvertApp] Writing 534259 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/digital_quantum_simulations_spin_fermion/qat_fermion_qpe_hubbard_molecule.html

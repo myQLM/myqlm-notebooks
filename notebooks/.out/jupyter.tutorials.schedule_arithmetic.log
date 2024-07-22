@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/schedule_arithmetic.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. schedule_arithmetic.ipynb
+notebook_parent_dir ... ./tutorials
+test .................. jupyter/tutorials/schedule_arithmetic
+testcase .............. jupyter.tutorials.schedule_arithmetic
+testname .............. schedule_arithmetic
+testpackage ........... jupyter
+testclass ............. tutorials
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.schedule_arithmetic.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html schedule_arithmetic.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/schedule_arithmetic 
+jupyter.tutorials.schedule_arithmetic    [09:45:32]
+-------------------------------------
+[NbConvertApp] Converting notebook schedule_arithmetic.ipynb to html
+[NbConvertApp] Writing 377344 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/schedule_arithmetic.html

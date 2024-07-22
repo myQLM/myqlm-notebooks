@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/measurements_and_classic_operations.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. measurements_and_classic_operations.ipynb
+notebook_parent_dir ... ./tutorials/lang
+test .................. jupyter/tutorials/lang/measurements_and_classic_operations
+testcase .............. jupyter.tutorials.lang.measurements_and_classic_operations
+testname .............. measurements_and_classic_operations
+testpackage ........... jupyter
+testclass ............. tutorials.lang
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.measurements_and_classic_operations.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html measurements_and_classic_operations.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/measurements_and_classic_operations 
+jupyter.tutorials.lang.measurements_and_classic_operations    [09:45:04]
+----------------------------------------------------------
+[NbConvertApp] Converting notebook measurements_and_classic_operations.ipynb to html
+[NbConvertApp] Writing 414448 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/measurements_and_classic_operations.html

@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/plugins/circuit_inliner.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. circuit_inliner.ipynb
+notebook_parent_dir ... ./tutorials/plugins
+test .................. jupyter/tutorials/plugins/circuit_inliner
+testcase .............. jupyter.tutorials.plugins.circuit_inliner
+testname .............. circuit_inliner
+testpackage ........... jupyter
+testclass ............. tutorials.plugins
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/plugins
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.plugins.circuit_inliner.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html circuit_inliner.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/plugins/circuit_inliner 
+jupyter.tutorials.plugins.circuit_inliner    [09:45:20]
+-----------------------------------------
+[NbConvertApp] Converting notebook circuit_inliner.ipynb to html
+[NbConvertApp] Writing 355484 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/plugins/circuit_inliner.html

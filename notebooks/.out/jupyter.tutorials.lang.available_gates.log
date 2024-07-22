@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/available_gates.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. available_gates.ipynb
+notebook_parent_dir ... ./tutorials/lang
+test .................. jupyter/tutorials/lang/available_gates
+testcase .............. jupyter.tutorials.lang.available_gates
+testname .............. available_gates
+testpackage ........... jupyter
+testclass ............. tutorials.lang
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.available_gates.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html available_gates.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/available_gates 
+jupyter.tutorials.lang.available_gates    [09:44:52]
+--------------------------------------
+[NbConvertApp] Converting notebook available_gates.ipynb to html
+[NbConvertApp] Writing 409722 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/available_gates.html

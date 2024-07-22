@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/basic/observables.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. observables.ipynb
+notebook_parent_dir ... ./tutorials/basic
+test .................. jupyter/tutorials/basic/observables
+testcase .............. jupyter.tutorials.basic.observables
+testname .............. observables
+testpackage ........... jupyter
+testclass ............. tutorials.basic
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/basic
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.basic.observables.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html observables.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/basic/observables 
+jupyter.tutorials.basic.observables    [09:43:54]
+-----------------------------------
+[NbConvertApp] Converting notebook observables.ipynb to html
+[NbConvertApp] Writing 358322 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/basic/observables.html

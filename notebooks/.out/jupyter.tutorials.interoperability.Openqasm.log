@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/interoperability/Openqasm.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. Openqasm.ipynb
+notebook_parent_dir ... ./tutorials/interoperability
+test .................. jupyter/tutorials/interoperability/Openqasm
+testcase .............. jupyter.tutorials.interoperability.Openqasm
+testname .............. Openqasm
+testpackage ........... jupyter
+testclass ............. tutorials.interoperability
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/interoperability
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.interoperability.Openqasm.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html Openqasm.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/interoperability/Openqasm 
+jupyter.tutorials.interoperability.Openqasm    [09:50:58]
+-------------------------------------------
+[NbConvertApp] Converting notebook Openqasm.ipynb to html
+[NbConvertApp] Writing 356702 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/interoperability/Openqasm.html

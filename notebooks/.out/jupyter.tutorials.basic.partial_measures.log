@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/basic/partial_measures.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. partial_measures.ipynb
+notebook_parent_dir ... ./tutorials/basic
+test .................. jupyter/tutorials/basic/partial_measures
+testcase .............. jupyter.tutorials.basic.partial_measures
+testname .............. partial_measures
+testpackage ........... jupyter
+testclass ............. tutorials.basic
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/basic
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.basic.partial_measures.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html partial_measures.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/basic/partial_measures 
+jupyter.tutorials.basic.partial_measures    [09:43:58]
+----------------------------------------
+[NbConvertApp] Converting notebook partial_measures.ipynb to html
+[NbConvertApp] Writing 522210 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/basic/partial_measures.html

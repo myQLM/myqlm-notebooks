@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/variational_algorithms/vqe_getting_started_random_spin.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. vqe_getting_started_random_spin.ipynb
+notebook_parent_dir ... ./tutorials/variational_algorithms
+test .................. jupyter/tutorials/variational_algorithms/vqe_getting_started_random_spin
+testcase .............. jupyter.tutorials.variational_algorithms.vqe_getting_started_random_spin
+testname .............. vqe_getting_started_random_spin
+testpackage ........... jupyter
+testclass ............. tutorials.variational_algorithms
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/variational_algorithms
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.variational_algorithms.vqe_getting_started_random_spin.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html vqe_getting_started_random_spin.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/variational_algorithms/vqe_getting_started_random_spin 
+jupyter.tutorials.variational_algorithms.vqe_getting_started_random_spin    [09:45:46]
+------------------------------------------------------------------------
+[NbConvertApp] Converting notebook vqe_getting_started_random_spin.ipynb to html
+[NbConvertApp] Writing 458131 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/variational_algorithms/vqe_getting_started_random_spin.html

@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/lang/algorithms/grover.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. grover.ipynb
+notebook_parent_dir ... ./tutorials/lang/algorithms
+test .................. jupyter/tutorials/lang/algorithms/grover
+testcase .............. jupyter.tutorials.lang.algorithms.grover
+testname .............. grover
+testpackage ........... jupyter
+testclass ............. tutorials.lang.algorithms
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/lang/algorithms
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.lang.algorithms.grover.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html grover.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/lang/algorithms/grover 
+jupyter.tutorials.lang.algorithms.grover    [09:44:44]
+----------------------------------------
+[NbConvertApp] Converting notebook grover.ipynb to html
+[NbConvertApp] Writing 603478 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/lang/algorithms/grover.html

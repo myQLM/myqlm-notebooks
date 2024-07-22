@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/plugins/emulating_custom_hardware_specs.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. emulating_custom_hardware_specs.ipynb
+notebook_parent_dir ... ./tutorials/plugins
+test .................. jupyter/tutorials/plugins/emulating_custom_hardware_specs
+testcase .............. jupyter.tutorials.plugins.emulating_custom_hardware_specs
+testname .............. emulating_custom_hardware_specs
+testpackage ........... jupyter
+testclass ............. tutorials.plugins
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/plugins
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.plugins.emulating_custom_hardware_specs.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html emulating_custom_hardware_specs.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/plugins/emulating_custom_hardware_specs 
+jupyter.tutorials.plugins.emulating_custom_hardware_specs    [09:45:22]
+---------------------------------------------------------
+[NbConvertApp] Converting notebook emulating_custom_hardware_specs.ipynb to html
+[NbConvertApp] Writing 359442 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/plugins/emulating_custom_hardware_specs.html

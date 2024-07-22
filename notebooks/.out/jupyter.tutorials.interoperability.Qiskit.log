@@ -1,0 +1,16 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/interoperability/Qiskit.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. Qiskit.ipynb
+notebook_parent_dir ... ./tutorials/interoperability
+test .................. jupyter/tutorials/interoperability/Qiskit
+testcase .............. jupyter.tutorials.interoperability.Qiskit
+testname .............. Qiskit
+testpackage ........... jupyter
+testclass ............. tutorials.interoperability
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/interoperability
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.interoperability.Qiskit.out
+

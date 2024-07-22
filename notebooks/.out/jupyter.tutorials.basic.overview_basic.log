@@ -1,0 +1,22 @@
+
+notebookdir ........... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks
+notebook_path ......... ./tutorials/basic/overview_basic.ipynb
+outdir ................ /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out
+output_format ......... junit
+test_type ............. convert_to_html
+notebook .............. overview_basic.ipynb
+notebook_parent_dir ... ./tutorials/basic
+test .................. jupyter/tutorials/basic/overview_basic
+testcase .............. jupyter.tutorials.basic.overview_basic
+testname .............. overview_basic
+testpackage ........... jupyter
+testclass ............. tutorials.basic
+testdir ............... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/tutorials/basic
+outfile (this file) ... /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/notebooks/.out/jupyter.tutorials.basic.overview_basic.out
+
+python3 -m jupyter nbconvert --execute --ExecutePreprocessor.timeout=600 --to html overview_basic.ipynb
+--output /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/./tutorials/basic/overview_basic 
+jupyter.tutorials.basic.overview_basic    [09:43:56]
+--------------------------------------
+[NbConvertApp] Converting notebook overview_basic.ipynb to html
+[NbConvertApp] Writing 341521 bytes to /var/lib/jenkins/workspace/myqlm-tutorial-notebooks_rc/install_linux-x86_64_cpython_python39/html_notebooks/tutorials/basic/overview_basic.html

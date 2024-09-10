@@ -1,0 +1,8 @@
+BEGIN
+qubits 2
+cbits 1
+
+H q[0]
+MEAS q[0] c[0]
+?c[0]: X q[1]
+END

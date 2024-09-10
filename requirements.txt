@@ -1,2 +1,2 @@
-myqlm==1.7.1
+myqlm>=1.10.3
 myqlm-interop[cirq_binder]

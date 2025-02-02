@@ -1,5 +1,0 @@
-DEFINE PARAM QFT int : None
-BEGIN
-qubits 4
-QFT[4] q[0], q[1], q[2], q[3]
-END

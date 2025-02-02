@@ -1,2 +1,2 @@
-myqlm>=1.10.3
+myqlm>=1.11.2
 myqlm-interop[pyquil_binder]

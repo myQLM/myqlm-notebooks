@@ -30,6 +30,13 @@
             "notebooks" : [
                 "Pyquil.ipynb"
             ]
+        },
+        {
+            "stack": "qiskit",
+            "notebooks" : [
+                "Qiskit.ipynb",
+                "using_qiskit_qpus.ipynb"
+            ]
         }
     ]
 }
